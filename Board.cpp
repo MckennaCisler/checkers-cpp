@@ -42,29 +42,6 @@ Board::Board()
 }
 
 /**
- * Responsible for generating a board based on another board
- */
-Board::Board(const Board& board)
-{
-	for (int pos = 0; pos < SIZE*SIZE; pos++)
-    {
-		setValueAt(pos, board.getValueAt(pos));  
-    }
-}
-
-/**
- * Responsible for deconstrucing the board (deleting Pieces) when done.
- */
-Board::~Board()
-{
-	for (int pos = 0; pos < SIZE*SIZE; pos++)
-    {
-    	delete getValueAt(pos);
-		setValueAt(pos, nullptr);  
-    }
-}
-    
-/**
  * Using the given move and piece, move the piece on the board and apply it to this board.
  * @param move The Move object to execute on the piece and board.
  * @param piece The Piece object that will be moved.
