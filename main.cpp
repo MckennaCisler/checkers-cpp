@@ -8,6 +8,7 @@
 #include <vector>
 #include <iostream>
 
+// modified by juyoung ha
 /**
  * File responsible for determining the gamemode (1- or 2-player), running the game, and handling game exit.
  *
