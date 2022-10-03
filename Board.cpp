@@ -41,6 +41,7 @@ Board::Board()
     }
 }
 
+
 /**
  * Using the given move and piece, move the piece on the board and apply it to this board.
  * @param move The Move object to execute on the piece and board.
