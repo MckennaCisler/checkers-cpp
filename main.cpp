@@ -9,6 +9,7 @@
 #include <iostream>
 
 // modified by juyoung ha
+// modified by ha twice
 /**
  * File responsible for determining the gamemode (1- or 2-player), running the game, and handling game exit.
  *
