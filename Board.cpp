@@ -3,7 +3,7 @@
 #include "Piece.h"
 #include "Move.h"
 #include "Typedefs.h"
-
+//we are team2. hi, everyone.
 /**
  * Responsible for generating a brand new board
  * Fills the board with pieces in their starting positions.

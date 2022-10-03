@@ -65,7 +65,7 @@ class Piece
 		 * Switches this peice to be a king if it is at the end of the board.
 		 * Should be called after every move.
 		 */
-		void checkIfShouldBeKing(const Board& board);
+        void checkIfShouldBeKing(const Board& board);
 
 		/**
 		 * Moves this piece's reference of its position (DOES NOT ACTUALLY MOVE ON BOARD)
